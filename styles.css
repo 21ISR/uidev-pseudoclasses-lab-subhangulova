@@ -30,3 +30,29 @@ input:focus{
     border-color: #3498db;
     outline: none;
 }
+input:disabled {
+  background: #f0f0f0;
+  color: #aaa;
+  cursor: not-allowed;
+}
+a:link{
+    color: #3498db;
+    text-decoration: none;
+}
+a:visited {
+  color: #11b319;
+}
+.list li:nth-child(even){
+    background-color: #0a33ee;
+}
+.list li:nth-child(odd){
+    background-color: #960ed4;
+}
+input[type="checkbox"] { 
+    accent-color: #3498db;
+    width: 15px;
+}
+input[type="checkbox"]:checked + label {
+  color: #11b319;
+  font-weight: bold;
+}
